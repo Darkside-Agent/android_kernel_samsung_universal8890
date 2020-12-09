@@ -25,13 +25,16 @@
 <<<<<<< HEAD
 
 #ifdef CONFIG_BOEFFLA_WL_BLOCKER
+<<<<<<< HEAD
 #include "boeffla_wl_blocker.h"
 
 char list_wl_search[LENGTH_LIST_WL_SEARCH] = {0};
+=======
+char list_wl[255];
+char list_wl_search[257];
+>>>>>>> parent of f5b2dba01447... boeffla_wl_blocker: update to wakelock blocker driver v1.0.1
 bool wl_blocker_active = false;
 bool wl_blocker_debug = false;
-
-static void wakeup_source_deactivate(struct wakeup_source *ws);
 #endif
 
 =======
